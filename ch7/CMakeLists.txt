@@ -14,7 +14,7 @@ include_directories(
         ${OpenCV_INCLUDE_DIRS}
         ${G2O_INCLUDE_DIRS}
         ${Sophus_INCLUDE_DIRS}
-        "/usr/include/eigen3/"
+        "/usr/local/include/eigen3/"
 )
 
 add_executable(orb_cv orb_cv.cpp)
